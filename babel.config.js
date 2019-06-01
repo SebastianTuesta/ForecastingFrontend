@@ -2,5 +2,5 @@ module.exports = {
   presets: [
     '@vue/app'
   ],
-  publicPath: 'ForecastingFrontend'
+  publicPath: 'frontend'
 }
