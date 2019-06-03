@@ -15,7 +15,12 @@
     </v-container>
     <v-container fluid>
       <v-layout>
-        <v-flex xs6 offset-xs9>
+        <v-flex xs6>
+          <h2>Signal for today: <font color="green">Sell</font> when price is maximum</h2>
+          <h3>Maximum price: $1434</h3>
+          <h3>Minimum price: $1200</h3>
+        </v-flex>
+        <v-flex xs4 offset-xs4>
           <v-card id="stock_close_today" color="white">
             <v-flex id="last_close" xs12>
               <h3>Last Close:</h3> 
