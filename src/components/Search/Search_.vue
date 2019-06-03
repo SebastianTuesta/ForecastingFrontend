@@ -70,7 +70,7 @@ export default {
   methods: {
       stock_search: function() {
         this.axios
-          .get('https://pacific-falls-73829.herokuapp.com/lookup/'+this.stock+'/')
+          .get('https://financialforecasting.herokuapp.com/lookup/'+this.stock+'/')
           .then((response)=> (this.lookup = response.data));
       }
   }

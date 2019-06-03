@@ -113,7 +113,7 @@ export default {
   },
   mounted: function(){
     this.axios
-          .get('https://pacific-falls-73829.herokuapp.com/stock/'+this.symbol+'/')
+          .get('https://financialforecasting.herokuapp.com/stock/'+this.symbol+'/')
           .then((response)=> {
             this.data = response.data;
             this.last_close = this.data[this.data.length-1].Close.toFixed(2);
