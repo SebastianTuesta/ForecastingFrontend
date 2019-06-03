@@ -25,6 +25,10 @@ var router = new VueRouter({
             path: '/stock_analysis',
             name: 'StockAnalysis',
             component: StockAnalysis
+        },
+        {
+            path: '/',
+            component: Login
         }
     ]
 })

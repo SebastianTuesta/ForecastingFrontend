@@ -10,8 +10,8 @@ npm run build
 cd dist
 
 git init
-git add -A
-git commit -m 'deploy'
+git add .
+git commit -m 'deploy-finish'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f  https://github.com/SebastianTuesta/ForecastingFrontend.git master:gh-pages
