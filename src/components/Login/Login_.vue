@@ -1,5 +1,5 @@
 <template>
-    <v-content :style="{backgroundImage: 'url(' + require('@/assets/Background.jpg') + ')' }">
+    <v-content>
       <v-container fluid fill-height>
         <v-layout align-center justify-center>
           <v-flex xs12 sm8 md4>
@@ -16,26 +16,24 @@
               </v-card-text>
               <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="primary">Login</v-btn>
+                <v-btn color="primary" :to="{ name: 'Search'}">Login</v-btn>       
               </v-card-actions>
             </v-card>
           </v-flex>
         </v-layout>
       </v-container>
     </v-content>
+
 </template>
 
 <script>
-
 export default {
-  name: 'Login',
+  name: 'Login_',
   components: {
   },
   data () {
     return {
     }
-  },
-  methods: {
   }
 }
 </script>
